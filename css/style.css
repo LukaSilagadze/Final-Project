@@ -1,0 +1,113 @@
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* header */
+header{
+    padding: 16px 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012426;
+    border-bottom: 2px solid #05BCCA
+}
+.header_nav_ul{
+    display: flex;
+    gap: 72px;
+}
+.nav_a{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #A1C3C9;
+}
+.header_icons_ul{
+    display: flex;
+    gap: 32px;
+}
+.header_icons{
+    font-size: 12px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid #05BCCA;
+    color: #05BCCA;
+}
+.fa-regular{
+    font-size: 12px;
+    padding: 14px;
+    border-radius: 8px;
+    color: #2C4246;
+    background-color: #05BCCA;
+}
+.fa-solid:hover, .fa-regular:hover{
+    background-color: #05BCCA;
+    color: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* main */
+
+/* main section 1 */
+.main_section_1{
+    height: 560px;
+    background-image: url("../images/cover.png");
+    background-position: center;
+    padding-top: 72px;
+}
+h2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.h2_span{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #05BCCA;
+}
+h2::after{
+    content: url("../images/arrow.svg");
+    margin-left: 24px;
+}
+h2:hover::after{
+    cursor: pointer;
+}
+
+/* main section 2 */
+.main_section_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 64px;
+    padding: 96px 94px;
+    background-color: #1A1A1A;
+}
+h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    color: #05BCCA;
+    position: relative;
+    display: block;
+}
+h3::after {
+  content: "";
+  width: 187px;
+  border-bottom: 2px solid #05BCCA;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  margin-top: 8px;
+}
