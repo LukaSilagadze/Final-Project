@@ -116,7 +116,7 @@ h2{
 .contact_buttons{
     border-radius: 8px;
     border: 2px solid #FFFFFF;
-    background-color: var(--txt-color);
+    background-color: var(--secondary-color2);
     cursor: pointer;
 }
 .icons{
