@@ -1,3 +1,11 @@
+:root{
+    --primary-color: #012426;
+    --secondary-color1: #2C4246;
+    --secondary-color2: #05BCCA;
+    --background-color: #1A1A1A;
+    --element-colorOrange: #C46A2B;
+    --txt-color: #D9D9D9;
+}
 /* form section */
 .section_main{
     padding-block: 140px;
@@ -11,7 +19,7 @@
     padding: 32px;
     background-color: #2C4246CC;
     border-radius: 10px;
-    border: 1px solid #05BCCA;
+    border: 1px solid var(--secondary-color2);
     width: min(100%, 1038px);
 }
 .contact_section_left{
@@ -82,7 +90,7 @@ h2{
     width: 440px;
     height: 56px;
     border-radius: 10px;
-    background-color: #C46A2B;
+    background-color: var(--element-colorOrange);
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -92,8 +100,6 @@ h2{
     text-align: center;
     padding-block: 16px;
     border: none;
-}
-.send_button:hover{
     cursor: pointer;
 }
 /* map section */
@@ -110,9 +116,7 @@ h2{
 .contact_buttons{
     border-radius: 8px;
     border: 2px solid #FFFFFF;
-    background-color: #05BCCA;
-}
-.contact_buttons:hover{
+    background-color: var(--txt-color);
     cursor: pointer;
 }
 .icons{

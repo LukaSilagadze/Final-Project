@@ -1,3 +1,11 @@
+:root{
+    --primary-color: #012426;
+    --secondary-color1: #2C4246;
+    --secondary-color2: #05BCCA;
+    --background-color: #1A1A1A;
+    --element-colorOrange: #C46A2B;
+    --txt-color: #D9D9D9;
+}
 /* main section 1 */
 .main_section_1{
     height: 560px;
@@ -20,16 +28,13 @@ h2{
     font-size: 32px;
     line-height: 36px;
     letter-spacing: 0%;
-    color: #05BCCA;
+    color: var(--secondary-color2);
 }
 h2::after{
     content: url("../images/arrow.svg");
     margin-left: 24px;
-}
-h2:hover::after{
     cursor: pointer;
 }
-
 /* main section 2 */
 .main_section_2{
     display: flex;
@@ -37,7 +42,7 @@ h2:hover::after{
     align-items: center;
     row-gap: 64px;
     padding: 96px 94px;
-    background-color: #1A1A1A;
+    background-color: var(--background-color);
 }
 h3{
     font-family: Inter;
@@ -45,14 +50,14 @@ h3{
     font-size: 36px;
     line-height: 52px;
     letter-spacing: 0%;
-    color: #05BCCA;
+    color: var(--secondary-color2);
     position: relative;
     display: block;
 }
 h3::after {
   content: "";
   width: 187px;
-  border-bottom: 2px solid #05BCCA;
+  border-bottom: 2px solid var(--secondary-color2);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -69,8 +74,8 @@ h3::after {
     padding: 8px;
     padding-bottom: 16px;
     row-gap: 16px;
-    background-color: #2C4246;
-    border: 1px solid #05BCCA;
+    background-color: var(--secondary-color1);
+    border: 1px solid var(--secondary-color2);
     transition: 0.5s;
 }
 .page1_cards:hover{
@@ -87,7 +92,7 @@ h1{
     font-size: 16px;
     line-height: 27px;
     letter-spacing: 0%;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }
 .price{
     font-family: Inter;
@@ -95,12 +100,12 @@ h1{
     font-size: 16px;
     line-height: 27px;
     letter-spacing: 0%;
-    color: #05BCCA;
+    color: var(--secondary-color2);
 }
 .add_button{
     padding: 4px 16px;
     border-radius: 4px;
-    background-color: #C46A2B;
+    background-color: var(--element-colorOrange);
     border: none;
     font-family: Inter;
     font-weight: 400;
@@ -108,7 +113,5 @@ h1{
     line-height: 20px;
     letter-spacing: 0%;
     color: #FFFFFF;
-}
-.add_button:hover{
     cursor: pointer;
 }

@@ -1,3 +1,11 @@
+:root{
+    --primary-color: #012426;
+    --secondary-color1: #2C4246;
+    --secondary-color2: #05BCCA;
+    --background-color: #1A1A1A;
+    --element-colorOrange: #C46A2B;
+    --txt-color: #D9D9D9;
+}
 .container{
     width: min(100%, 1440px);
     margin: auto;
@@ -8,8 +16,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #012426;
-    border-bottom: 2px solid #05BCCA
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color2)
 }
 .header_nav_ul{
     display: flex;
@@ -31,18 +39,18 @@ header{
     font-size: 12px;
     padding: 14px;
     border-radius: 8px;
-    border: 2px solid #05BCCA;
-    color: #05BCCA;
+    border: 2px solid var(--secondary-color2);
+    color: var(--secondary-color2);
 }
 .header_icons_mid{
     font-size: 12px;
     padding: 14px;
     border-radius: 8px;
-    color: #2C4246;
-    background-color: #05BCCA;
+    color: var(--secondary-color1);
+    background-color: var(--secondary-color2);
 }
 .header_icons:hover{
-    background-color: #05BCCA;
+    background-color: var(--secondary-color2);
     color: #FFFFFF;
     transition: 0.3s;
     cursor: pointer;
@@ -52,7 +60,7 @@ footer{
     display: flex;
     padding-block: 64px;
     column-gap: 157px;
-    background-color: #2C4246;
+    background-color: var(--secondary-color1);
     justify-content: center;
 }
 .footer_sec_left,
@@ -87,7 +95,7 @@ h4{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
-    color: #DEE2EB;
+    color: var(--txt-color);
 }
 .contact_txt{
     font-family: Inter;
@@ -95,9 +103,9 @@ h4{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }
 .fa-brands{
     font-size: 24px;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }

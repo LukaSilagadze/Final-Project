@@ -1,6 +1,14 @@
+:root{
+    --primary-color: #012426;
+    --secondary-color1: #2C4246;
+    --secondary-color2: #05BCCA;
+    --background-color: #1A1A1A;
+    --element-colorOrange: #C46A2B;
+    --txt-color: #D9D9D9;
+}
 /* main top part */
 .main{
-    background-color: #012426;
+    background-color: var(--primary-color);
     padding: 96px 94px;
     display: flex;
     flex-direction: column;
@@ -27,11 +35,11 @@
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0%;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }
 .menu{
     font-size: 32px;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }
 .menu:hover{
     cursor: pointer;
@@ -63,7 +71,7 @@ select:hover{
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    background-color: #2C4246;
+    background-color: var(--secondary-color1);
 }
 .cards:hover{
     cursor: pointer;
@@ -74,7 +82,7 @@ h2{
     font-size: 16px;
     line-height: 27px;
     letter-spacing: 0%;
-    color: #D9D9D9;
+    color: var(--txt-color);
     margin-left: 8px;
 }
 .card_bottom_part{
@@ -89,19 +97,16 @@ h2{
     font-size: 16px;
     line-height: 27px;
     letter-spacing: 0%;
-    color: #05BCCA;
+    color: var(--secondary-color2);
 }
 .cart{
     font-size: 20px;
     color: #FFFFFF;
     padding: 7px 5px;
     border-radius: 4px;
-    background-color: #C46A2B;
-}
-.cart:hover{
+    background-color: var(--element-colorOrange);
     cursor: pointer;
 }
-
 .main_bottom_part{
     display: flex;
     column-gap: 48px;
@@ -120,11 +125,9 @@ h2{
     border-radius: 8px;
     line-height: 24px;
     letter-spacing: 0%;
-    color: #D9D9D9;
-    background-color: #C46A2B;
+    color: var(--txt-color);
+    background-color: var(--element-colorOrange);
     border: none;
-}
-.button_previous{
     cursor: pointer;
 }
 .button_previous::before{
@@ -132,7 +135,7 @@ h2{
     content: "\f104";
     font-weight: 900;
     margin-right: 16px;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }
 .pages{
     font-family: Inter;
@@ -155,11 +158,9 @@ h2{
     border-radius: 8px;
     line-height: 24px;
     letter-spacing: 0%;
-    color: #D9D9D9;
-    background-color: #05BCCA;
+    color: var(--txt-color);
+    background-color: var(--secondary-color2);
     border: none;
-}
-.button_next{
     cursor: pointer;
 }
 .button_next::after{
@@ -167,5 +168,5 @@ h2{
     content: "\f105";
     font-weight: 900;
     margin-left: 16px;
-    color: #D9D9D9;
+    color: var(--txt-color);
 }
