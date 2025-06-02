@@ -31,6 +31,9 @@ header{
     letter-spacing: 0%;
     color: #A1C3C9;
 }
+.nav_a:hover{
+    color: var(--element-colorOrange);
+}
 .header_icons_ul{
     display: flex;
     gap: 32px;
@@ -97,6 +100,9 @@ h4{
     letter-spacing: 0%;
     color: var(--txt-color);
 }
+.footer_li:hover{
+    color: var(--element-colorOrange);
+}
 .contact_txt{
     font-family: Inter;
     font-weight: 400;
@@ -105,7 +111,13 @@ h4{
     letter-spacing: 0%;
     color: var(--txt-color);
 }
+.contact_txt:hover{
+    color: var(--element-colorOrange);
+}
 .fa-brands{
     font-size: 24px;
     color: var(--txt-color);
+}
+.fa-brands:hover{
+    color: var(--element-colorOrange);
 }
