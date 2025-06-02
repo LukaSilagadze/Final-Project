@@ -264,6 +264,11 @@ header{
     row-gap: 16px;
     background-color: var(--secondary-color1);
     cursor: pointer;
+    transition: 0.5s;
+}
+.cards:hover{
+    box-shadow: 0px 0px 8px 4px #05BCCACC;
+    transform: scale(1.02);
 }
 .page2_h2{
     font-family: Inter;
@@ -331,6 +336,10 @@ header{
     background-color: var(--element-colorOrange);
     border: none;
     cursor: pointer;
+    transition: 0.3s;
+}
+.button_previous:hover{
+    background-color: var(--secondary-color2);
 }
 .button_previous::before{
     font-family: "Font Awesome 6 Free";
@@ -364,6 +373,10 @@ header{
     background-color: var(--secondary-color2);
     border: none;
     cursor: pointer;
+    transition: 0.3s;
+}
+.button_next:hover{
+    background-color: var(--element-colorOrange);
 }
 .button_next::after{
     font-family: "Font Awesome 6 Free";
@@ -470,6 +483,10 @@ header{
     padding-block: 16px;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
+}
+.send_button:hover{
+    background-color: var(--secondary-color2);
 }
 /* map section */
 .map_section{
@@ -487,6 +504,10 @@ header{
     border: 2px solid #FFFFFF;
     background-color: var(--secondary-color2);
     cursor: pointer;
+    transition: 0.3s;
+}
+.contact_buttons:hover{
+    background-color: var(--element-colorOrange);
 }
 .icons{
     padding: 12px;
