@@ -111,6 +111,7 @@ header{
 .page1_h2::after{
     content: url("../images/arrow.svg");
     margin-left: 24px;
+    vertical-align: -4px;
     cursor: pointer;
 }
 /* main section 2 */
@@ -531,8 +532,12 @@ header{
     background-color: var(--element-colorOrange);
 }
 .icons{
-    padding: 12px;
+    display: flex;
+    width: 48px;
+    height: 48px;
     font-size: 24px;
+    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
 }
 
