@@ -45,4 +45,7 @@
     .cards{
         height: 400px;
     }
+    .card7-9{
+        display: none;
+    }
 }

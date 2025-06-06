@@ -20,6 +20,9 @@
     .h2_span{
         font-size: 24px;
     }
+    .page1_h2::after{
+        vertical-align: -4px;
+    }
     .page1_h3{
         font-size: 24px;
         margin-right: 20px;

@@ -24,6 +24,9 @@
     .cards_section{
         grid-template-columns: 1fr;
     }
+    .card5-6{
+        display: none;
+    }
 
     /* contact page */
     .page3_main{
