@@ -31,7 +31,8 @@ header{
     transform: translate(-50%, 0);
     z-index: 1;
 }
-.burger{
+.burger,
+.xmark{
     display: none;
 }
 .page2_main,

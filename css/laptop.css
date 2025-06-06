@@ -5,7 +5,19 @@
         display: block;
     }
     .header_nav{
-        display: none;
+        background-color: #C46A2B;
+        padding: 16px 56px 16px 16px;
+        position: fixed;
+        top: 101px;
+        left: -100%;
+        transition: .3s;
+    }
+    .header_nav_ul{
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    .nav_a{
+        color: #A1C3C9;
     }
     header{
         padding: 16px 32px;
