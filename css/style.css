@@ -56,7 +56,7 @@ header{
 }
 .header_icons_ul{
     display: flex;
-    gap: 32px;
+    column-gap: 32px;
 }
 .header_icons{
     font-size: 12px;
@@ -83,12 +83,14 @@ header{
 /* HOME PAGE  */
 
 /* main section 1 */
-.page1_main_section_1{
-    height: 560px;
-    background-image: url("../images/cover.png");
-    background-position: center;
-    padding-top: 72px;
+.page1_main_section_1 {
+  background-image: url("../images/cover.png");
+  background-size: 100% 560px;
+  width: 100%;
+  height: 560px;
+  padding-top: 72px;
 }
+
 .page1_h2{
     font-family: Inter;
     font-weight: 400;
@@ -245,6 +247,9 @@ header{
     color: var(--txt-color);
     cursor: pointer;
 }
+.sort_img{
+    display: none;
+}
 .sort_select{
     width: 160px;
     height: 32px;
@@ -343,7 +348,6 @@ header{
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
-    width: 121px;
     height: 40px;
     border-radius: 8px;
     line-height: 24px;
@@ -380,7 +384,6 @@ header{
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
-    width: 92px;
     height: 40px;
     border-radius: 8px;
     line-height: 24px;
