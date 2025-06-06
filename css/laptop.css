@@ -1,0 +1,18 @@
+@media (max-width: 1180px) {
+    .burger{
+        display: block;
+    }
+    .header_nav{
+        display: none;
+    }
+    header{
+        padding: 16px 32px;
+    }
+    .page1_main_section_2{
+        padding-left: 32px;
+    }
+    .page1_cards{
+        width: 272px;
+        height: 331px;
+    }
+}
