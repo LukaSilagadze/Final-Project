@@ -1,4 +1,6 @@
 @media (max-width: 1180px) {
+
+    /* header */
     .burger{
         display: block;
     }
@@ -8,11 +10,27 @@
     header{
         padding: 16px 32px;
     }
+
+    /* home page */
     .page1_main_section_2{
-        padding-left: 32px;
+        padding: 96px 0 96px 32px;
     }
     .page1_cards{
         width: 272px;
         height: 331px;
+    }
+    .page1_h3{
+        margin-right: 32px;
+    }
+
+    /* catalog page */
+    .page2_main{
+        padding: 96px 32px;
+    }
+    .cards_section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards{
+        height: 400px;
     }
 }

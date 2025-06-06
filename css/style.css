@@ -117,8 +117,7 @@ header{
     justify-content: center;
     flex-direction: column;
     row-gap: 64px;
-    padding-block: 96px;
-    padding-left: 94px;
+    padding: 96px 0 96px 94px;
     background-color: var(--background-color);
 }
 .page1_h3{
@@ -126,6 +125,7 @@ header{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
+    margin-right: 94px;
     line-height: 52px;
     letter-spacing: 0%;
     color: var(--secondary-color2);
@@ -155,7 +155,7 @@ header{
 .article_div{
     display: flex;
     column-gap: 20px;
-    overflow: auto;
+    overflow-x: scroll;
 }
 .page1_cards{
     width: 298px;
@@ -265,18 +265,26 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px 20px;
+    width: 100%;
 }
 .cards{
     display: flex;
     flex-direction: column;
+    width: 100%;
     row-gap: 16px;
     background-color: var(--secondary-color1);
     cursor: pointer;
     transition: 0.5s;
+    object-fit: cover;
 }
 .cards:hover{
     box-shadow: 0px 0px 8px 4px #05BCCACC;
     transform: scale(1.02);
+}
+.card_img{
+    width: 100%;
+    height: 298px;
+    object-fit: cover;
 }
 .page2_h2{
     font-family: Inter;
@@ -398,7 +406,7 @@ header{
 
 /* form section */
 .page3_main{
-    padding-block: 140px;
+    padding: 140px 32px;
     background-image: url(../images/Rectangle\ 7.png);
     background-position: center;
 }
@@ -413,6 +421,7 @@ header{
     width: min(100%, 1038px);
 }
 .contact_section_left{
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
@@ -439,7 +448,7 @@ header{
 }
 .name_input,
 .email_input{
-    width: 190px;
+    width: 100%;
     height: 40px;
     padding: 12px 8px;
     border-radius: 10px;
@@ -453,7 +462,7 @@ header{
     color: #FFFFFF;
 }
 .message_textarea{
-    width: 440px;
+    width: 100%;
     height: 96px;
     padding: 8px;
     border-radius: 10px;
@@ -477,7 +486,7 @@ header{
     color: #FFFFFFC2;
 }
 .send_button{
-    width: 440px;
+    width: 100%;
     height: 56px;
     border-radius: 10px;
     background-color: var(--element-colorOrange);
@@ -498,6 +507,7 @@ header{
 }
 /* map section */
 .map_section{
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
@@ -524,7 +534,7 @@ header{
 }
 
 .map{
-    width: 494px;
+    width: 100%;
     height: 264px;
     border-radius: 10px;
 }
