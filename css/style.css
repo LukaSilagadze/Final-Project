@@ -166,7 +166,6 @@ header{
     display: flex;
     column-gap: 20px;
     overflow-x: scroll;
-    scrollbar: none;
 }
 .page1_cards{
     width: 298px;
